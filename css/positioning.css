@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+  vertical-align: bottom;
+}
+
+#two {
+  position: static;
+  top: 200px;
+  left: 200px;
+  background: blue;
+}

@@ -1,0 +1,12 @@
+.done{
+    color: gray;
+}
+
+li{
+    color: blue;
+}
+
+#clear{
+    background-color: red;
+    color: white
+}

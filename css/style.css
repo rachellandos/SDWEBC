@@ -1,0 +1,68 @@
+h5 {
+    background-color: #2dcbcb;
+}
+
+/* justificar o texto */
+p,
+ul,
+ol,
+table {
+    text-align: justify;
+    font-size: 80%;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.bg-plum {
+    background-color: plum;
+}
+
+/* box model */
+.listas {
+    background-color: lightcyan;
+    width: 200px;
+    height: 220px;
+    border: green solid;
+    padding: 10px;
+    margin: 10px auto 0px auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* por defeito em mobile a imagem aparece escondida */
+#my-img {
+    display: none;
+}
+
+/* media query */
+
+/* para prints */
+@media print {
+    nav {
+        display: none;
+    }
+
+    ;
+}
+
+/* para tablets ou superior */
+@media(min-width:1032px) and (max-width:1500px) {
+    #my-img {
+        display: block;
+    }
+}
+
+@media(min-width:800px) {
+    .bg-plum {
+        background-color: green;
+    }
+}
+
+@media(min-width:1800px) {
+    .bg-plum {
+        background-color: yellow;
+    }
+}

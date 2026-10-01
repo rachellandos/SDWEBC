@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Exercise</title>
+    <link rel="shortcut icon" href="../images/icons8-table-16.png" type="image/x-icon">
+</head>
+
+<body>
+    <h1>Race Registration!</h1>
+    <section>
+        <form action="../pages/utils/success.html" method="get">
+            <label for="first-name">First Name</label>
+            <input type="text" name="" id="first-name">
+
+            <label for="last-name">Last Name</label>
+            <input type="text" name="" id="last-name">
+
+            <br />
+            <br />
+
+            <legend>Select a Race:</legend>
+            <div>
+                <input type="radio" name="" id="fun-run-5k">
+                <label for="fun-run-5k">Fun Run 5K</label>
+
+            </div>
+            <div></div>
+            <input type="radio" name="" id="half-marathon">
+            <label for="half-marathon">Half Marathon</label>
+
+            </div>
+            <div>
+                <input type="radio" name="" id="full-marathon">
+                <label for="full-marathon">Full Marathon</label>
+
+            </div>
+
+            <br />
+
+            <label for="e-mail">E-mail</label>
+            <input type="email" name="" id="e-mail">
+
+            <label for="password">Password</label>
+            <input type="password" name="" id="password">
+
+            <label for="age-group">Select Age Group</label>
+            <select name="" id="age-select" required>
+                <option value="">--Please choose an option--</option>
+                <optgroup label="Child">
+                    <option value="under-3">Under 3</option>
+                    <option value="child">3-12</option>
+                    <option value="teenager">12-18</option>
+                </optgroup>
+                <optgroup label="Adult">
+                    <option value="adult">18-65</option>
+                    <option value="senior">65+</option>
+                </optgroup>
+
+            </select>
+
+            <br />
+            <br />
+
+            <button type="submit">Register!</button>
+        </form>
+    </section>
+</body>
+
+</html>

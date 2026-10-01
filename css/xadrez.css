@@ -1,0 +1,29 @@
+#board>div {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    position: relative;
+    top: 150px;
+    left: 550px;
+}
+
+#board {
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+/* procura multiplos de 2 e resta 1 a cada */
+#board>div:nth-of-type(2n-1) {
+    background-color: red;
+}
+
+#board>div:nth-of-type(2n) {
+    background-color: black;
+}
+
+#one {
+    position: revert;
+}
